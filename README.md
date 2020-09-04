@@ -1,4 +1,4 @@
-# python-black-check
+# python-blacken
 A customisable GitHub action to check the style of Python code with [black](https://github.com/psf/black).
 
 # Inputs
