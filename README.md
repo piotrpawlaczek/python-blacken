@@ -12,19 +12,17 @@ This tells `black` where to look for files to check.
 ## Line-length (optional)
 This tells `black` how long each line of Python code can be.
 
-**Default**: `81`, which is _different_ from `black`'s default of `88`.
-
 # Example usage
 Include this in your `.github/workflows/main.yaml`:
 
 ```yaml
-uses: RojerGS/python-black-check@master
+uses: piotrpawlaczek/python-blacken@master
 ```
 or, if you want to override any of the defaults,
 
 ```yaml
-uses: RojerGS/python-black-check@master
+uses: piotrpawlaczek/python-blacken@master
 with:
-  line-length: '81'
+  line-length: '88'
   path: '.'
 ```
