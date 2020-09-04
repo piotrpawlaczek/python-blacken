@@ -19,12 +19,12 @@ This tells `black` how long each line of Python code can be.
 Include this in your `.github/workflows/main.yaml`:
 
 ```yaml
-uses: piotrpawlaczek/python-blacken@master
+uses: piotrpawlaczek/python-blacken@stable
 ```
 or, if you want to override any of the defaults,
 
 ```yaml
-uses: piotrpawlaczek/python-blacken@master
+uses: piotrpawlaczek/python-blacken@stable
 with:
   line-length: '88'
   path: '.'
