@@ -1,8 +1,8 @@
-# python-blacken [new]
+# python-blacken
 
 A customisable GitHub action to check the style of Python code with [black](https://github.com/psf/black).
 
-Uses black version **20.8b1**
+Uses black version **21.5b0**
 
 # Inputs
 You can use inputs to alter how `black` will check your code.
@@ -27,6 +27,7 @@ Include this in your `.github/workflows/main.yaml`:
 ```yaml
 uses: piotrpawlaczek/python-blacken@release/stable
 ```
+
 or, if you want to override any of the defaults,
 
 ```yaml
@@ -37,3 +38,11 @@ with:
   sanity-check: 'safe'
   only-check: 'no'
 ```
+
+# Black releases support
+
+- release@stable
+The stable branch contains the latest officially released distribution of Black.
+
+- release@21.5b0
+- release@20.8b1
